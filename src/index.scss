@@ -1,0 +1,11 @@
+@import "bulma/sass/utilities/initial-variables.sass";
+$blue-grey: #607D8B;
+$primary: $blue-grey;
+$family-serif: sans-serif;
+$family-primary: $family-serif;
+@import "bulma/bulma.sass";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $family-primary;
+}
